@@ -103,7 +103,7 @@ const colums: IColumn[] = [
     dataIndex: 'name',
   },
   {
-    title: 'Descripcion',
+    title: 'Descripción',
     dataIndex: 'description',
   },
   {
@@ -112,7 +112,7 @@ const colums: IColumn[] = [
     render: (x) => x && moment(x).format('YYYY-MM-DD'),
   },
   {
-    title: 'Fecha de revision',
+    title: 'Fecha de revisión',
     dataIndex: 'date_revision',
     render: (x) => x && moment(x).format('YYYY-MM-DD'),
   },

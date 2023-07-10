@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aliceblue;
+  background-color: #f9f9f9;
   font-size: 14px;
 }
 
@@ -30,7 +30,7 @@ table {
 }
 
 th {
-  background-color: aliceblue;
+  background-color: #f9f9f9;
   text-align: left;
   padding-inline: 5px;
   padding-block: 12px;
