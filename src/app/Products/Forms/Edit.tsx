@@ -3,8 +3,9 @@ import Form from './Form'
 import { IProduct } from '../types'
 import Layout from '../../Layout'
 import { useSearchParams } from 'react-router-dom'
-import { data } from '..'
+
 import moment from 'moment'
+import { data } from '../../../libs/dataTest'
 
 const Edit = () => {
   const [product, setProduct] = useState<IProduct>()

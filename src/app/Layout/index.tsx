@@ -7,12 +7,7 @@ const Layout = ({ children }: IProps) => {
   return (
     <div>
       <header>
-        <img
-          src={logo}
-          className='App-logo'
-          alt='logo'
-          style={{ width: 150, marginBlock: 10 }}
-        />
+        <img src={logo} alt='logo' style={{ width: 150, marginBlock: 10 }} />
       </header>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         {children}
